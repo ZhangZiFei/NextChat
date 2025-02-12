@@ -639,7 +639,8 @@ const siliconflowModels = [
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
-export const DEFAULT_MODELS = [
+export const DEFAULT_MODELS = [];
+export const DEFAULT_MODELS_ =[
   ...openaiModels.map((name) => ({
     name,
     available: true,
