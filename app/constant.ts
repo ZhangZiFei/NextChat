@@ -510,7 +510,7 @@ const googleModels = [
   // "gemini-exp-1114",
   // "gemini-exp-1121",
   // "gemini-exp-1206",
-  // "gemini-2.0-flash",
+  "gemini-2.0-flash",
   // "gemini-2.0-flash-exp",
   // "gemini-2.0-flash-lite-preview-02-05",
   // "gemini-2.0-flash-thinking-exp",
@@ -529,10 +529,10 @@ const anthropicModels = [
   // "claude-3-opus-latest",
   // "claude-3-haiku-20240307",
   // "claude-3-5-haiku-20241022",
-  // "claude-3-5-haiku-latest",
+  "claude-3-5-haiku-latest",
   // "claude-3-5-sonnet-20240620",
   // "claude-3-5-sonnet-20241022",
-  // "claude-3-5-sonnet-latest",
+  "claude-3-5-sonnet-latest",
 ];
 
 const baiduModels = [
@@ -540,7 +540,7 @@ const baiduModels = [
   // "ernie-4.0-8k",
   // "ernie-4.0-8k-preview",
   // "ernie-4.0-8k-preview-0518",
-  // "ernie-4.0-8k-latest",
+  "ernie-4.0-8k-latest",
   // "ernie-3.5-8k",
   // "ernie-3.5-8k-0205",
   // "ernie-speed-128k",
@@ -555,7 +555,7 @@ const bytedanceModels = [
   // "Doubao-lite-128k",
   // "Doubao-pro-4k",
   // "Doubao-pro-32k",
-  // "Doubao-pro-128k",
+  "Doubao-pro-128k",
 ];
 
 const alibabaModes = [
@@ -565,7 +565,7 @@ const alibabaModes = [
   // "qwen-max-0428",
   // "qwen-max-0403",
   // "qwen-max-0107",
-  // "qwen-max-longcontext",
+  "qwen-max-longcontext",
 ];
 
 const tencentModels = [
@@ -575,7 +575,7 @@ const tencentModels = [
   // "hunyuan-role",
   // "hunyuan-functioncall",
   // "hunyuan-code",
-  // "hunyuan-vision",
+  "hunyuan-vision",
 ];
 
 const moonshotModes = ["moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k"];
@@ -585,7 +585,7 @@ const iflytekModels = [
   // "generalv3",
   // "pro-128k",
   // "generalv3.5",
-  // "4.0Ultra",
+  "4.0Ultra",
 ];
 
 const deepseekModels = ["deepseek-chat", "deepseek-coder", "deepseek-reasoner"];
@@ -598,7 +598,7 @@ const xAIModes = [
   // "grok-vision-beta",
   // "grok-2-vision-1212",
   // "grok-2-vision",
-  // "grok-2-vision-latest",
+  "grok-2-vision-latest",
 ];
 
 const chatglmModels = [
@@ -615,7 +615,7 @@ const chatglmModels = [
   // "glm-4v-flash", // free
   // "cogview-3-plus",
   // "cogview-3",
-  // "cogview-3-flash", // free
+  "cogview-3-flash", // free
   // 目前无法适配轮询任务
   //   "cogvideox",
   //   "cogvideox-flash", // free
@@ -624,14 +624,14 @@ const chatglmModels = [
 const siliconflowModels = [
   // "Qwen/Qwen2.5-7B-Instruct",
   // "Qwen/Qwen2.5-72B-Instruct",
-  // "deepseek-ai/DeepSeek-R1",
+  "deepseek-ai/DeepSeek-R1",
   // "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
   // "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
   // "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
   // "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
   // "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
   // "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-  // "deepseek-ai/DeepSeek-V3",
+  "deepseek-ai/DeepSeek-V3",
   // "meta-llama/Llama-3.3-70B-Instruct",
   // "THUDM/glm-4-9b-chat",
   // "Pro/deepseek-ai/DeepSeek-R1",
